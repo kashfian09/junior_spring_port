@@ -72,17 +72,20 @@ body {
    BIO SECTION
 ========================= */
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .card {
-  display: flex;  
-  align-items: center;
-  gap: 20px;            
+  text-align: center;
 }
 
 .card img {
-  width: 50%;           
-  height: 25px;         
+  width: 100px; /* adjust as needed */
+  height: auto;
 }
-
 .bio {
   display: flex;
   flex-direction: column;
