@@ -36,7 +36,7 @@
   <!-- MAIN CONTENT -->
   <main class="home-card">
 
-    <!-- ABOUT / BIO CARD -->
+    <!-- Cards -->
     <div class="image-container">
       <div class="card">
         <img src="Ace.png" alt="Ace of diamonds">
@@ -58,6 +58,17 @@
         <p class="text">Contacts</p>
       </div>
     </div>
+  </main>
+
+    <!-- FOOTER -->
+  <footer class="footer">
+    <p class="foottext">© <span id="year"></span> Kashfia Nayim | Junior Spring Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 
 </body>
