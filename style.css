@@ -30,6 +30,18 @@ body {
   height: 60px;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-left h1 {
+  font-size: 2rem; /* make bigger */
+  color: white;
+  margin: 0;
+}
+
 .navbar-right {
   list-style: none;
   display: flex;
@@ -86,6 +98,11 @@ body {
   width: 250px; /* adjust as needed */
   height: auto;
 }
+
+.text {
+  color: #4E2355;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
