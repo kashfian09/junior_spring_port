@@ -1,4 +1,21 @@
 /* =========================
+   GLOBAL / RESET....
+========================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-image: url("bg.jpeg");
+  color: #f0f0f0;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+/* =========================
    NAVBAR
 ========================= */
 .navbar {
