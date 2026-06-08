@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Xanh Mono', Arial, sans-serif;
   background-image: url("bg.jpeg");
   color: #f0f0f0;
   background-size: cover;
@@ -46,4 +46,160 @@ body {
 
 .navbar-right a:hover {
   color: #aaaaff;
+}
+
+/* =========================
+   PAGE LAYOUT
+========================= */
+.home-card {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+/* =========================
+   CARDS
+========================= */
+.resource-card {
+  background-color: rgb(178, 163, 200);
+  margin: 2em auto;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+}
+
+/* =========================
+   BIO SECTION
+========================= */
+
+.card {
+  display: flex;         
+  gap: 15px;            
+}
+
+.card img {
+  width: 50%;           
+  height: 25px;         
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #215028;
+  object-fit: cover;
+}
+
+.bio-text h1 {
+  margin-bottom: 0.2em;
+}
+
+.bio-text h4 {
+  margin-top: 0;
+  font-weight: normal;
+  color: rgb(115, 96, 144);
+}
+
+/* =========================
+   PROJECT LAYOUT
+========================= */
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.project iframe {
+  flex: 2;
+  min-width: 320px;
+  height: 450px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.reflection {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.reflection h3 {
+  margin-top: 0;
+  color: rgb(129, 107, 163);
+}
+
+.reflection p {
+  font-size: 0.95em;
+  color: #dddddd;
+}
+
+/* =========================
+   LINKS / ICONS
+========================= */
+.skill-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.picture {
+  transition: transform 0.2s ease;
+}
+
+.picture:hover {
+  transform: scale(1.05);
+}
+
+.link-pic {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #816390;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project iframe {
+    width: 100%;
+    min-width: 0;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .navbar-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
