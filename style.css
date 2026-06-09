@@ -141,14 +141,6 @@ h1 {
   height: auto;
 }
 
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 /* THIS is the key fix */
 .photo {
@@ -165,6 +157,44 @@ h1 {
   object-fit: cover;
   display: block;
 }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(180px, 1fr));
+  gap: 25px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.frame {
+  border: 3px solid #4E2355;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slot {
+  width: 250px;
+  height: auto;
+  padding-left: 25px;
+}
+
+.return {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+
 
 /* =========================
    CARDS
