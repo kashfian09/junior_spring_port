@@ -251,6 +251,17 @@ html, body {
   color: inherit;
 }
 
+.pool {
+  text-align: center; 
+}
+
+.pool img {
+  width: 150px; /* adjust as needed */
+  height: auto;
+  display: block;
+  padding-top: 60px;
+} 
+
 .bio {
   display: flex;
   flex-direction: column;
