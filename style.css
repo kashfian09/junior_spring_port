@@ -136,6 +136,11 @@ h1 {
   margin-right: 10px;
 }
 
+.navcard {
+  width: 27px;
+  height: auto;
+}
+
 /* =========================
    CARDS
 ========================= */
