@@ -80,6 +80,20 @@ h1 {
   padding: 0;
 }
 
+.chips {
+  display: block;
+  width: 400px;  /* adjust this number */
+  height: auto;
+  margin: 0;
+}
+
+.fourball {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+}
+
 /* =========================
    CARDS
 ========================= */
