@@ -84,11 +84,45 @@ h1 {
   padding: 0;
 }
 
+.kashpic {
+  padding-right: 20px;
+}
+
+.abtme {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.abtmetext {
+  color: #4E2355;
+  font-size:x-large;
+  line-height: 1.6;
+}
+
 .footer-images {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
+}
+
+.cam {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.cam img {
+  width: 300px;  /* adjust size */
+  height: auto;
+  display: block;
+}
+
+.cam,
+.cam img,
+.footer {
+  margin: 0;
 }
 
 .chips {
