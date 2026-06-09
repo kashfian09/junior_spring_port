@@ -244,7 +244,11 @@ html, body {
   color: #4E2355;
   letter-spacing: 0.5em;
   font-size:x-large;
+}
+
+.card a {
   text-decoration: none;
+  color: inherit;
 }
 
 .bio {
