@@ -300,6 +300,7 @@ html, body {
   align-items: flex-end;
   margin-right: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .vinyl {
@@ -311,6 +312,14 @@ html, body {
     margin-left: auto;
     margin-right: 0;
 }
+
+.contact-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+}
+
 
 /* Define the spinning animation */
 @keyframes spin {
