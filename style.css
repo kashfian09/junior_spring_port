@@ -80,18 +80,22 @@ h1 {
   padding: 0;
 }
 
+.footer-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
 .chips {
-  display: block;
-  width: 400px;  /* adjust this number */
+  width: 400px;
   height: auto;
-  margin: 0;
 }
 
 .fourball {
-  display: block;
-  width: 300px;
+  width: 150px;
   height: auto;
-  margin-left: auto;
+  margin-right: 10px;
 }
 
 /* =========================
