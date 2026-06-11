@@ -65,9 +65,7 @@ h1 {
   color: #aaaaff;
 }
 
-.navfont a {
-  font-size: x-large;
-}
+
 
 /* =========================
    PAGE LAYOUT
@@ -283,6 +281,10 @@ html, body {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.navbar-right a {
+  font-size: x-large;
 }
 
 .navcard {
