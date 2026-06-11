@@ -232,6 +232,11 @@ html, body {
   display: flex;
   justify-content: center;
   gap: 45px;
+  background-color:#B695C0;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1.5em;
+  border-radius: 12px;
 }
 
 .card {
@@ -321,12 +326,12 @@ html, body {
 }
 
 .pool img {
-  width: 150px; /* adjust as needed */
+  width: 150px;
   height: auto;
   display: block;
-  padding-top: 60px;
-  padding-bottom: 50px;
-} 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .bio {
   display: flex;
