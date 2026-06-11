@@ -246,6 +246,12 @@ html, body {
   display: block;
 }
 
+.cont {
+  background-color: #B695C0;
+  padding: 1.5em;
+  border-radius: 12px;
+}
+
 .text {
   color: #4E2355;
   letter-spacing: 0.5em;
