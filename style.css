@@ -252,6 +252,44 @@ html, body {
   border-radius: 12px;
 }
 
+.dropdown {
+  position: relative;
+  list-style: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(178, 163, 200);
+  padding: 5px 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 8px;
+  width: 160px;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background: rgb(144, 127, 167);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navcard {
+  width: 27px;
+  cursor: pointer;
+}
+
 .text {
   color: #4E2355;
   letter-spacing: 0.5em;
