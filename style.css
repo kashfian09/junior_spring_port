@@ -283,6 +283,19 @@ html, body {
   display: block;
 }
 
+.works-trigger {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  cursor: pointer;
+  padding-bottom: 6px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: white;
+}
+
 .navbar-right a {
   font-size: x-large;
 }
