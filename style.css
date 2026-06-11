@@ -199,13 +199,6 @@ html, body {
   padding: 0;
 }
 
-.footer {
-  background-color: rgb(144, 127, 167);
-  padding: 1.5em;
-  width: 100%;
-  margin: 0;
-}
-
 /* =========================
    BIO SECTION
 ========================= */
@@ -446,10 +439,15 @@ audio {
 /* =========================
    FOOTER
 ========================= */
-footer {
+
+
+.footer {
   text-align: center;
   font-size: 0.85em;
-  color: #816390;
+  background-color: rgb(144, 127, 167);
+  padding: 1.5em;
+  width: 100%;
+  margin: 0;
 }
 
 .foottext{
